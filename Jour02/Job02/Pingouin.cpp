@@ -6,7 +6,7 @@ using namespace std;
 Pingouin::Pingouin(double speedEau, double speedTerre) : Aquatique(10.0), Terrestre(10.0) {}
 
 Pingouin::Pingouin(double speedEau, double speedTerre, double speedGlisse) :
-Aquatique(10.0), Terrestre(10.0), vitesseGlisse(speedGlisse) {}
+Aquatique(speedEau), Terrestre(speedTerre), vitesseGlisse(speedGlisse) {}
 
 Pingouin::~Pingouin() {}
 

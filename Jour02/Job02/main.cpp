@@ -8,6 +8,13 @@ int main()
     pingouin.saluer();
     pingouin.nager();
     pingouin.marcher();
+    pingouin.glisser();
+    pingouin.setVitesseEau(20.0);
+    pingouin.setVitesseTerre(20.0);
+    pingouin.setVitesseGlisse(25.0);
+    pingouin.nager();
+    pingouin.marcher();
+    pingouin.glisser();
     return 0;
 }
 // Il faut écrire :
