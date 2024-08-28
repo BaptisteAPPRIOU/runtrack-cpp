@@ -25,7 +25,6 @@ int main()
     // Pingouin::supprimerPingouin(pingouin2);
     // Pingouin::afficherPingouins();
     Pingouin::afficherTempsParcours();
-    cout << "test" << endl;
     return 0;
 }
 // Il faut écrire :
