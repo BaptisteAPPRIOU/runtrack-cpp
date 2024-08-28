@@ -7,7 +7,9 @@ Pingouin::Pingouin(double speedEau, double speedTerre) : Aquatique(10.0), Terres
 Pingouin::Pingouin(double speedEau, double speedTerre, double speedGlisse) :
 Aquatique(speedEau), Terrestre(speedTerre), vitesseGlisse(speedGlisse) {}
 
-Pingouin::~Pingouin() {}
+Pingouin::~Pingouin() {
+    supprimerPingouin(shared_ptr<Pingouin>(this));
+}
 
 void Pingouin::saluer()
 {
